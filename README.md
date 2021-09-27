@@ -6,7 +6,7 @@
 
 MinesField is a retro game to look for mines into a board, is divide for a three levels as principiant, intermediate and expert.
 
-The game`s idea is find the mines and desarmy all of them. The game is a new look clone from the famous game from windows. The rules and some interesting info about the game is in the web site: [Minesweeper](http://minesweeper.info)
+The game`s idea is find the mines and desarmy all of them. The game is a new look clone from the famous game from windows. The rules and some interesting info about the game is in the web site: [Minesweeper](https://minesweepergame.com/)
 
 ## Class Diagram
 
