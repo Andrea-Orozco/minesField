@@ -1,0 +1,21 @@
+@startuml minesfield
+class Level {
+    string Name
+    int    Id
+}
+class Board {
+    int[][] dimention
+    int     amountMines
+}
+class Piece {
+    int[][] position
+}
+class Clue
+class Mine
+
+
+Level - Board : have 1 >
+Board o- Piece
+Piece ^- Clue
+Piece ^- Mine
+@enduml
