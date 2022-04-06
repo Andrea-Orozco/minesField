@@ -1,21 +1,25 @@
 @startuml minesfield
 class Level {
     string Name
-    int    Id
+    int    X
+    int    Y
+    int    amountMines
 }
 class Board {
-    int[][] dimention
-    int     amountMines
+    int[][]         dimention
+    JButton [][]    pieces
 }
 class Piece {
     int[][] position
+    bool    isMine
 }
-class Clue
 class Mine
+{
+    void blow()
+}
 
 
 Level - Board : have 1 >
 Board o- Piece
-Piece ^- Clue
 Piece ^- Mine
 @enduml
